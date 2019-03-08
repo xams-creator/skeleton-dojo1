@@ -1,0 +1,10 @@
+{
+  "name": "xams-hello",
+  "env": "dev",
+  "port": 9999,
+  "openBrower": true,
+  "proxy": {},
+  "build": {
+    "index": "index.html"
+  }
+}

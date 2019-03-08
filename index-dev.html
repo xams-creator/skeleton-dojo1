@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>index-dev</title>
+</head>
+<body class=""></body>
+<script>
+    window.dojoConfig = {
+        async: true,
+        isDebug: true,
+        packages: [
+            {
+                name: "app",
+                location: "/src/app"
+            }
+        ],
+        deps:["app/index"],
+        callback:function(app){
+            app.startup({});
+        },
+        parseOnLoad: true
+    };
+</script>
+<script src="node_modules/dojo/dojo.js"></script>
+</html>

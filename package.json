@@ -1,0 +1,22 @@
+{
+  "name": "xams-hello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "dijit": "^1.14.2",
+    "dojo": "~1.14.2",
+    "dojox": "^1.14.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "xams start",
+    "start":"npm run dev"
+  },
+  "keywords": [
+    "xams",
+    "web"
+  ],
+  "author": "yxzhou",
+  "license": "ISC"
+}
